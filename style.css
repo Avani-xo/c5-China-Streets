@@ -1,0 +1,114 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navb{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.mns{
+    background-image: url("./c5img.jpg");
+    width: 100%;
+    height: 55vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.mns .heading{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.side{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+.side a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.mdown{
+    display: flex;
+    padding: 1.5rem 2rem;
+    justify-content: space-between;
+}
+.mdown>*{
+    
+    width: 20rem;
+}
+.mdown .icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+.mdown .icons a{
+    color: white;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    
+    
+}
+.bottom *{
+    width: 25%;
+}
+.curr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.curr h1{
+    font-size: 2rem;
+}
+.curr .bty{
+    font-size: 1.3rem;
+}
+.curr .arrows {
+    display: flex;
+    gap: 2rem;
+    
+}
+.curr a{
+    color: black;
+}
+@media (max-width: 700px){
+    .bottom{
+        flex-direction: column;
+    }
+    .bottom *{
+        width: 100%;
+    }
+    .curr *{
+        width: 10rem;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;      
+    }
+    .curr h2{
+        font-size: 3rem;
+
+    }
+    .curr .bty{
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+    .curr span{
+        font-size: 1.5rem;
+    }
+    .curr .arrows div{
+        border-radius: 2px solid;
+    }
+}
